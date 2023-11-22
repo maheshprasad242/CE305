@@ -1,0 +1,36 @@
+﻿/ Student Name : Mahesh Prasad (Id : 19960)
+/ College      : SFBU
+
+		    ORG		    000		    
+Cond,   	    LOAD	    I		    
+		    SUBT	    THREE		
+		    SKIPCOND	    400		    
+		    JUMP	    Loop
+            	    JUMP            Cont
+        
+Loop,   	    LOAD  	    I		    
+  		    OUTPUT				    
+        	    ADD 	    ONE		   	
+        	    STORE 	    I		    
+    		    LOAD      	    I
+        	    SUBT            FIVE  
+        	    SKIPCOND	    000	
+        	    JUMP            End
+                    JUMP            Cond
+            
+Cont,               LOAD  	    I
+        	    ADD 	    ONE		   	
+        	    STORE 	    I
+        	    JUMP            Cond 
+            
+End, 		    HALT 			        
+
+I,		    DEC		    0
+  
+/ constant values
+ZERO,		DEC		   0
+ONE,		DEC		   1
+TWO,		DEC		   2
+THREE,		DEC		   3
+FOUR,		DEC		   4
+FIVE,		DEC		   5
