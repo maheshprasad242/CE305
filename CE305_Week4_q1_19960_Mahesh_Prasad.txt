@@ -1,0 +1,30 @@
+﻿/ Stuent Name : Mahesh Prasad (Id : 19960)
+/ College     : SFBU
+
+ORG 000 
+
+WHILE,      LOAD        STR_BASE    
+            ADD         ITR         
+            STORE       INDEX       
+            LOADI       INDEX       
+            SKIPCOND    400         
+            JUMP        DO          
+            HALT                    
+
+DO,         Output                  
+            LOAD        ITR        
+            ADD         ONE         
+            STORE       ITR         
+            JUMP        WHILE       
+
+        
+ONE,        DEC     1
+ITR,        DEC     0
+INDEX,      HEX     0
+STR_BASE,   HEX     10      / memory location of str
+STR,        HEX     48      / H
+            HEX     65      / E
+            HEX     6C      / L
+            HEX     6C      / L
+            HEX     6F      / O
+            HEX     0       / NULL char
