@@ -1,5 +1,5 @@
-﻿/ Stuent Name : Mahesh Prasad (Id : 19960)
-/ College     : SFBU
+﻿/ Student Name : Mahesh Prasad (Id : 19960)
+/ College      : SFBU
 
 		ORG		000		    
 Cond,           LOAD		I		    
